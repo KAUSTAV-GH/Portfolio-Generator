@@ -1,0 +1,101 @@
+[
+  {
+    "username": "kaustav-ghosh-hazra",
+    "name": "Kaustav Ghosh Hazra ",
+    "about": "I am a Computer Science Engineering student interested in web development and artificial intelligence. I enjoy building real-world projects and learning new technologies. I have experience in C, Python and JavaScript and I like creating useful software applications.",
+    "skills": [
+      "C Programming",
+      "Python",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Data Structures",
+      "Node.js",
+      "GitHub"
+    ],
+    "projects": [
+      "Portfolio Generator Website",
+      "Waste Management System",
+      "Queue Implementation in C",
+      "Stack Implementation in C",
+      "Student Record Management System"
+    ],
+    "education": [
+      "B.Tech in Computer Science Engineering",
+      "3rd Year Student",
+      "XYZ Engineering College",
+      "2023 - 2027"
+    ],
+    "contact": "Email: kaustav@email.com Phone: 9083494107 LinkedIn: linkedin.com/in/kaustav",
+    "profilePhoto": "/uploads/1772403297189-384036874.jpg",
+    "createdAt": "2026-03-01T22:14:57.218Z"
+  },
+  {
+    "username": "kaustav-ghosh-hazra-1",
+    "name": "Kaustav Ghosh Hazra ",
+    "about": "i am kaustav...",
+    "skills": [
+      "python"
+    ],
+    "projects": [
+      "weather app"
+    ],
+    "education": [
+      "msit ,2nd year"
+    ],
+    "contact": "Email: kaustav@email.com Phone: 9083494107 LinkedIn: linkedin.com/in/kaustav",
+    "profilePhoto": "/uploads/1772431945288-663194344.jpg",
+    "createdAt": "2026-03-02T06:12:25.295Z"
+  },
+  {
+    "username": "kaustav-ghosh-hazra-2",
+    "name": "Kaustav Ghosh Hazra ",
+    "about": "I am a 3rd year BTech Computer Science student passionate about web development and software engineering. I enjoy building modern and user-friendly web applications using HTML, CSS, JavaScript and Node.js.\r\n\r\nI am currently working on a Portfolio Generator Website project that helps students create professional portfolios easily. I am interested in full-stack development and always eager to learn new technologies.",
+    "skills": [
+      "HTML, CSS, JavaScript, Node.js, Express, C Programming, Data Structures, Git, Responsive Design"
+    ],
+    "projects": [
+      "Portfolio Generator Website",
+      "- Developed a web application that generates professional portfolios",
+      "- Built using HTML, CSS, JavaScript and Node.js",
+      "- Supports user data storage and photo upload",
+      "Student Management System",
+      "- Created a basic CRUD application",
+      "- Used JavaScript and Node.js",
+      "- Stores student records",
+      "Personal Portfolio Website",
+      "- Designed a responsive portfolio website",
+      "- Used modern CSS and animations"
+    ],
+    "education": [
+      "BTech in Computer Science Engineering",
+      "MAKAUT University",
+      "2023 - 2027",
+      "Higher Secondary (Class 12)",
+      "Science Stream",
+      "2023",
+      "Secondary (Class 10)",
+      "2021"
+    ],
+    "contact": "Email: kaustav@email.com Phone: 9083494107 LinkedIn: linkedin.com/in/kaustav",
+    "profilePhoto": "/uploads/1772435085875-873848387.jpg",
+    "createdAt": "2026-03-02T07:04:45.898Z"
+  },
+  {
+    "username": "kaustav-ghosh-hazra-3",
+    "name": "Kaustav Ghosh Hazra ",
+    "about": "kkkk",
+    "skills": [
+      "hhbb"
+    ],
+    "projects": [
+      "m,m"
+    ],
+    "education": [
+      "jhvgcvjuh"
+    ],
+    "contact": "Email: kaustav@email.com Phone: 9083494107 LinkedIn: linkedin.com/in/kaustav",
+    "profilePhoto": "/uploads/1772435659409-397506009.png",
+    "createdAt": "2026-03-02T07:14:19.419Z"
+  }
+]

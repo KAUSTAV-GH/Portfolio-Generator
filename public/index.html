@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Generator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-animation" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+  </div>
+
+  <main class="page">
+    <section class="glass-card fade-in-up">
+      <header class="hero">
+        <p class="badge">Launch your personal brand</p>
+        <h1>Portfolio Generator</h1>
+        <p class="subtitle">Create your professional portfolio in seconds</p>
+      </header>
+
+      <form id="portfolioForm" class="portfolio-form" enctype="multipart/form-data">
+        <div class="field-grid">
+          <label class="field">
+            <span>Name</span>
+            <input type="text" name="name" placeholder="e.g., Aditi Sharma" required />
+          </label>
+
+          <label class="field">
+            <span>Contact</span>
+            <input type="text" name="contact" placeholder="Email / Phone / LinkedIn" required />
+          </label>
+        </div>
+
+        <label class="field">
+          <span>About</span>
+          <textarea name="about" rows="3" placeholder="Write a short professional summary..." required></textarea>
+        </label>
+
+        <label class="field">
+          <span>Skills</span>
+          <textarea name="skills" rows="4" placeholder="One skill per line" required></textarea>
+        </label>
+
+        <label class="field">
+          <span>Projects</span>
+          <textarea name="projects" rows="4" placeholder="One project per line" required></textarea>
+        </label>
+
+        <label class="field">
+          <span>Education</span>
+          <textarea name="education" rows="3" placeholder="One education detail per line" required></textarea>
+        </label>
+
+        <label class="field file-field">
+          <span>Photo Upload</span>
+          <input type="file" name="profilePhoto" accept="image/*" required />
+        </label>
+
+        <button type="submit" class="generate-btn">Generate Portfolio</button>
+      </form>
+
+      <section id="result" class="result hidden" aria-live="polite">
+        <h2>Your portfolio is ready 🎉</h2>
+        <p id="portfolioLink"></p>
+      </section>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
