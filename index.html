@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Portfolio Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="aurora aurora-a"></div>
+    <div class="aurora aurora-b"></div>
+
+    <main class="layout">
+      <section class="panel controls">
+        <p class="eyebrow">Create your world-class portfolio</p>
+        <h1>Super Beautiful 3D Portfolio Generator</h1>
+        <p class="subtitle">
+          Build a cinematic profile card with smooth depth, glow, and instant live
+          preview.
+        </p>
+
+        <form id="portfolio-form">
+          <label>
+            Name
+            <input id="name" type="text" placeholder="Alex Nova" value="Alex Nova" />
+          </label>
+
+          <label>
+            Title
+            <input
+              id="title"
+              type="text"
+              placeholder="3D Product Designer"
+              value="3D Product Designer"
+            />
+          </label>
+
+          <label>
+            Bio
+            <textarea id="bio" rows="4" placeholder="Tell your story...">I craft immersive digital experiences blending elegant design and meaningful interactions.</textarea>
+          </label>
+
+          <label>
+            Main Skill
+            <input id="skill" type="text" placeholder="WebGL" value="WebGL" />
+          </label>
+
+          <label>
+            Accent Color
+            <input id="accent" type="color" value="#6f7bff" />
+          </label>
+
+          <div class="btn-row">
+            <button type="submit" class="btn primary">Generate Portfolio</button>
+            <button type="button" id="randomize" class="btn ghost">Surprise Me</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="panel preview-area">
+        <p class="preview-label">Live 3D Preview</p>
+
+        <article class="portfolio-card" id="card">
+          <div class="card-glow"></div>
+          <div class="card-content">
+            <p class="mini">Personal Brand</p>
+            <h2 id="preview-name">Alex Nova</h2>
+            <p id="preview-title" class="role">3D Product Designer</p>
+            <p id="preview-bio" class="desc">
+              I craft immersive digital experiences blending elegant design and
+              meaningful interactions.
+            </p>
+
+            <div class="chips">
+              <span id="preview-skill">WebGL</span>
+              <span>Portfolio Ready</span>
+              <span>Interactive</span>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
